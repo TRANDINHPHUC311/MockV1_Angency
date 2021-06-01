@@ -39,9 +39,6 @@ $(".variable").slick({
             breakpoint: 576,
             settings: {
                 variableWidth: false,
-                draggable: true,
-                autoplay: true,
-                autoplaySpeed: 5000
             }
         },
     ],
@@ -59,7 +56,7 @@ let portfolioContent = document.getElementById('portfolioContent');
 
 portfolioContent.innerHTML = arrays[0].content;
 
-$('.prort__slide .slick-prev, .prort__slide .slick-next').click(function () {
+$('.prort__slide .slick-prev, .prort__slide .slick-next').click(function() {
     let activeIndexSlide = $('.slick-active').attr('data-slick-index');
 
 

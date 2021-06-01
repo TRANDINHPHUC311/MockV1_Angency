@@ -960,6 +960,9 @@ body {
     html {
         font-size: 12px;
     }
+    .post-content p {
+        padding: initial;
+    }
     .text-left h1 {
         font-size: 3rem;
         line-height: 4rem;
@@ -1025,7 +1028,8 @@ body {
         text-align: left;
     }
     .slide__none {
-        margin-right: 0;
+        width: initial;
+        margin: initial;
     }
     .slick-slide {
         margin-right: 20px;
@@ -1108,10 +1112,6 @@ body {
     .slick-current.slick-active .slide__content {
         width: 100%;
         text-align: center;
-    }
-    .slide__none {
-        width: 350px;
-        margin: 20px auto;
     }
     .slide__img-box {
         margin-right: 0;
@@ -1217,12 +1217,12 @@ body {
     .footer-middle-box:last-child {
         margin-left: 0px;
     }
+    .Games {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 400px) {
-    .slide__none {
-        width: 290px;
-    }
     .img-right {
         width: 270px;
         height: 266px;
